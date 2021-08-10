@@ -1,0 +1,39 @@
+css => 중복을 제거해줌, html은 정보를 전달하는 역할이고
+	css는 디자인을 담당하는 역할이 된다.
+	html에 비해서 디자인이 간편하다.
+<!-- ~ --> =>생략
+
+<style>~</style> => ~안에 이제 css로 작성을 할것이다.
+style속성도 tag와 같다.
+style안에 a{}=> 전체 링크된 것에 적용
+효과와 선택자
+
+박스모델
+화면전체를 쓰는것을 block element
+부분을 쓰는것을 inline element
+길이 : width
+높이 : height
+padding : 안쪽 여백
+margin : 바깥쪽 여백
+<style>
+.클래스값{}
+#아이디값{}
+</style>
+아이디는 식별 ->세밀함-> 주로 예외표현->우선순위가 제일 높음
+클래스는 그룹화 ->덜 세밀함->일반적으로 표현
+
+grid
+<div> ~</div> : 의미가 없지만 묶어주는 중요한 태그, 단 줄바꿈이됨
+<span> ~</span> : div와 같은 용도이나 줄바꿈이 안됨
+
+caniuse.com : html,css등의 코드의 최신기술을 보여주는것
+
+반응형 웹(디자인)
+화면의 크기에 따라 웹페이지의 각 요소들이 반응해서
+최적화된 모양으로 바뀌게 하는것
+min-width:800px => 800px이상이면 작동
+max-width:800px => 800px이하면 작동
+
+link로 연결해서 css통합
+<h2 style="background-color: coral;color:powderblue">
+css언어
